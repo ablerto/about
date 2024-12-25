@@ -1,0 +1,19 @@
+.textSquare {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #657b83;
+}
+.backgroundSquare {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
