@@ -5,7 +5,7 @@ import useWindowSize from "../windowdimension/windowSize";
 // returns a list of coordinates, speed and movement angle
 // [(x,y),theta,v]
 function createFlyingDot(w,h,r) {
-    return [[Math.random()*(w-2*r)+r,Math.random()*(h-2*r)+r],2*Math.PI*Math.random(),1]
+    return [[Math.random()*(w-2*r)+r,Math.random()*(h-2*r)+r],2*Math.PI*Math.random(),Math.random()*0.5+0.5]
 }
 
 function createFlyingDots(w,h,r,n) {

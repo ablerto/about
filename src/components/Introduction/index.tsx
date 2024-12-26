@@ -19,6 +19,7 @@ export default function Introduction() {
                     </div>
                 </div>
             </div>
+            <header className={styles.sticky}>header header header</header>
         </>
     )
 }
