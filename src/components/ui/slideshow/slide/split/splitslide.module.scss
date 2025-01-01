@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+}
+.container > * {
+    width: 50vw;
+    position: relative;
+}
