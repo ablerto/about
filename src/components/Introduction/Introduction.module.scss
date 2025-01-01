@@ -1,0 +1,20 @@
+$height: 100vh ;
+.textSquare {
+    height: $height;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #657b83;
+}
+.backgroundSquare {
+    width: 100vw;
+    height: $height;
+    position: absolute;
+    z-index: -1;
+}
+.container {
+    width: 100vw;
+    height: $height;
+    position: relative;
+}
